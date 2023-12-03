@@ -1,0 +1,247 @@
+%buttonCustomization{
+  border-radius: 4px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal bold 11px/1px Open Sans;
+  letter-spacing: 1.25px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+h1{
+  color: #2162AC;
+  text-align: left;
+  font: normal normal bold 14px/24px Open Sans;
+  letter-spacing: 0px;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-left: 5px;
+}
+.backButton{
+  height: 22px;
+  width: 22px;
+  margin-left: 20px;
+
+}
+.backArrow{
+  border-radius: 50px;
+  background-color: #2162AC;
+  height: 22px;
+  width: 22px;
+  cursor: pointer;
+}
+.backTab{
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+}
+
+
+.main-tab {
+  display: flex;
+
+
+  .partFamilyTab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    width: 14.5rem;
+    height: 2.5rem;
+    background: #EFF7FF 0% 0% no-repeat padding-box;
+    box-shadow: 4px 2px 6px #00000029;
+    border-radius: 2px 0px 0px 2px;
+    opacity: 1;
+
+    h2 {
+      text-align: left;
+      font: normal normal bold 14px/27px Open Sans;
+      letter-spacing: 0px;
+      color: #4E4E4E;
+      opacity: 1;
+    }
+
+
+    .partFamilyTabCounter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 6px;
+      background: #0275A7 0% 0% no-repeat padding-box;
+      border-radius: 16px;
+      opacity: 1;
+      width: 2.3rem;
+      color: white;
+      text-align: center;
+      font: normal normal bold 16px/23px Open Sans;
+
+    }
+
+
+  }
+
+
+  .whiteTab {
+
+    margin-left: 6px;
+    width: 63rem;
+    height: 2.5rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px;
+    opacity: 1;
+  }
+}
+
+.displayTable {
+  margin-top: 8px;
+  margin-left: 20px;
+  height: 25rem;
+  width: 77.8rem;
+  box-shadow: 0px 3px 6px #00000027;
+  overflow: auto;
+  background-color: #FFFFFF;
+
+  .header-row {
+    display: flex;
+    padding-bottom: 25px;
+    padding-top: 14px;
+    padding-left: 25px;
+    font: normal normal bold 14px/24px Open Sans;
+    font-weight: bolder;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+
+    .serial {
+      display: flex;
+
+      .selectAll {
+        margin-right: 13px;
+      }
+    }
+
+    .header-cell-pfname {
+      padding-left: 2.5rem;
+    }
+
+    .header-cell-shopType {
+      padding-left: 5rem;
+    }
+
+    .header-cell-criticality {
+      padding-left: 9rem;
+    }
+
+    .header-cell-updatedBy {
+      padding-left: 6rem;
+    }
+
+    .header-cell-updatedOn {
+      padding-left: 5rem;
+    }
+  }
+
+  .table-row {
+    display: flex;
+    padding-bottom: 18px;
+    padding-left: 25px;
+    font: normal normal normal 13px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    align-items: center;
+
+    .table-cell-index{
+      margin-left: 13px;
+    }
+    .table-cell-pfname {
+      margin-left: 45px;
+      flex-basis: 9.5rem;
+      text-align: left;
+    }
+
+    .table-cell-shopType {
+      flex-basis: 15rem;
+      margin-right: 23px;
+    }
+
+    .table-cell-criticality {
+      flex-basis: 10.5rem;
+    }
+
+    .table-cell-updatedBy {
+      flex-basis: 10rem;
+
+    }
+  }
+}
+
+
+
+
+.functionButtons{
+  display: flex;
+  margin-top: 15px;
+  margin-left: 20px;
+  height: 2rem;
+  width: 77.8rem;
+
+
+  .customiseButton{
+    background: #FFA222 0% 0% no-repeat padding-box;
+    @extend %buttonCustomization;
+  }
+  .delete {
+    .deleteButton {
+      background: #F17C7C 0% 0% no-repeat padding-box;
+      margin-left: 10px;
+      width: 5rem;
+      height: 2rem;
+      @extend %buttonCustomization;
+    }
+
+    .deleteButton.disabled {
+      background-color: #d3d3d3;
+      color: #808080;
+      cursor: not-allowed;
+    }
+  }
+  .edit {
+    .editButton {
+      background: #6AA98F 0% 0% no-repeat padding-box;
+      margin-left: 10px;
+      width: 3rem;
+      height: 2rem;
+      @extend %buttonCustomization;
+    }
+
+    .editButton.disabled {
+      background-color: #d3d3d3;
+      color: #808080;
+      cursor: not-allowed;
+    }
+  }
+  .add {
+    margin-left: auto;
+
+
+    .addButton {
+      background: #6AA98F 0% 0% no-repeat padding-box;
+      height: 2rem;
+      @extend %buttonCustomization;
+    }
+
+    .addButton.disabled {
+      background-color: #d3d3d3;
+      color: #808080;
+      cursor: not-allowed;
+    }
+  }
+}
+
+
+
+

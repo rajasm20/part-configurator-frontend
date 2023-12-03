@@ -1,0 +1,118 @@
+.del-modal{
+  display: none;
+
+  top: 30px;
+  left: 390px;
+  width: 565px;
+  height: 302px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 4px;
+  opacity: 1;
+  .del-modal-content{
+    .warnTitle{
+      display: flex;
+      align-items: center;
+      background: #F17C7C 0% 0% no-repeat padding-box;
+      opacity: 1;
+      width: 100%;
+      height: 45px;
+      font-size: 14px;
+      .warnSymbol{
+        margin-left: 15px;
+        color: white;
+
+      }
+      .warnText{
+        text-align: left;
+        padding-left: 10px;
+        font: normal normal bold 14px/27px Open Sans;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+      }
+    }
+    .warnTab{
+      width: 520px;
+      height: 144px;
+      background: #F9F9F9 0% 0% no-repeat padding-box;
+      border-radius: 2px;
+      opacity: 1;
+      margin-left: 20px;
+      margin-top: 20px;
+
+      .warnPara{
+        padding-left: 10px;
+        text-align: left;
+        font: normal normal bold 15px/24px Open Sans;
+        letter-spacing: 0px;
+        color: #707070;
+        opacity: 1;
+      }
+    }
+    .warnButtons{
+      display: flex;
+      padding-left: 20.7rem;
+      padding-top: 1rem;
+      .cancelButton{
+        cursor: pointer;
+        margin-right: 10px;
+        border: none;
+        width: 93px;
+        height: 35px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        opacity: 1;
+        text-align: center;
+        font: normal normal bold 14px/16px Open Sans;
+        letter-spacing: 1.25px;
+        color: #2E75B5;
+        text-transform: uppercase;
+      }
+      .cancelButton:hover{
+        cursor: pointer;
+        margin-right: 10px;
+        border: none;
+        width: 93px;
+        height: 35px;
+        background: #00000029 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        opacity: 1;
+        text-align: center;
+        font: normal normal bold 14px/16px Open Sans;
+        letter-spacing: 1.25px;
+        color: #2E75B5;
+        text-transform: uppercase;
+      }
+      .confirmButton{
+        cursor: pointer;
+        text-align: center;
+        font: normal normal bold 14px/16px Open Sans;
+        letter-spacing: 1.25px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        opacity: 1;
+        border: none;
+        width: 105px;
+        height: 35px;
+        background: #82C1A7 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+      }
+      .confirmButton:hover{
+        cursor: pointer;
+        text-align: center;
+        font: normal normal bold 14px/16px Open Sans;
+        letter-spacing: 1.25px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        opacity: 1;
+        border: none;
+        width: 105px;
+        height: 35px;
+        background: #71a992 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+      }
+
+    }
+  }
+}

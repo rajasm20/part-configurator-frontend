@@ -1,0 +1,76 @@
+.main-nav {
+    //border-bottom: 1px solid #e8eef6;
+    height: 52px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 30px 2px 30px;
+    box-sizing: border-box;
+    background: #fff;
+    z-index: 100;
+}
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+.tatalogo {
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    padding-top: 1px;
+    border-right: 1px solid #e8eef6;
+    padding-right: 20px;
+    object-position: left top;
+}
+
+
+.right-nav {
+    text-align: right;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.icons-nav {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.icons-nav svg {
+    margin-right: 12px;
+    cursor: pointer;
+    width: 0.9em;
+    height: 0.9em;
+}
+
+.iconS {
+    color: #d6d6d6;
+}
+
+.accountIcon {
+    color: #2E75B5
+}
+
+.downIcon {
+    margin-right: 0;
+    color: #4a7fc1;
+}
+
+
+.imps {
+    cursor: pointer;
+    width: 100px;
+
+}
+
+.imps-nav {
+    border-left: 1px solid #e8eef6;
+    padding: 4px 0 4px 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+

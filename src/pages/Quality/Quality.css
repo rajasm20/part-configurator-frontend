@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+
+
+.quality-content {
+    margin-left: 9px;
+    text-align: left;
+    font: normal normal bold 20px/27px Open Sans;
+    letter-spacing: 0px;
+    color: $font_color;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+
+  .quality-container {
+      display: flex;
+      height: 3rem;
+      padding: 10px;
+      margin: 20px 30px 15px 30px;
+      border-radius: 6px;
+      background: #C6CEDB 0% 0% no-repeat padding-box;
+      box-shadow: 0px 3px 6px $container_shadow;
+  }
+
+      .home-icon-container {
+          width: 30px;
+          height: 30px;
+          color: white;
+          background: #608FC9 0% 0% no-repeat padding-box;
+          box-shadow: 0px 3px 6px #00000029;
+          opacity: 1;
+          border-radius: 3px;
+          padding: 1px;
+          margin-top: 0.5rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+      }
+
+      .card-container {
+          display: flex;
+          justify-content: flex-start;
+
+          margin-left: 30px;
+          margin-right: 30px;
+          height: 27.5rem;
+      }
+
+          .left-card {
+
+              width: 16rem;
+              padding: 0 16px;
+              margin-right: 17px;
+              background: #DCE2EA 0% 0% no-repeat padding-box;
+              box-shadow: 0px 3px 6px $container_shadow;
+              border-radius: 12px;
+              text-align: left;
+              font: normal normal bold 14px/22px Open Sans;
+              letter-spacing: 0px;
+              color: $font-color;
+              text-transform: uppercase;
+              opacity: 1;
+
+          }
+
+          .right-card {
+              width: 16rem;
+              padding: 0 16px;
+              border-radius: 12px;
+              margin-left: auto;
+              background: #EAEFF7 0% 0% no-repeat padding-box;
+              box-shadow: 0px 3px 6px $container_shadow;
+              text-align: left;
+              font: normal normal bold 14px/22px Open Sans;
+              letter-spacing: 0px;
+              color: $font-color;
+              text-transform: uppercase;
+              opacity: 1;
+          }
+
+          .card-heading {
+              margin: 14px 0;
+          }
+
+          .card-buttons {
+
+              width: 16rem;
+              text-align: left;
+              font: normal normal bold 14px/19px Open Sans;
+              letter-spacing: 0px;
+              color: #4E4E4E;
+              text-transform: uppercase;
+              opacity: 1;
+              border: none;
+              height: 3rem;
+              margin-bottom: 15px;
+              display: flex;
+              align-items: center;
+              padding-left: 10px;
+              background-color: #FFFFFF;
+              box-shadow: 0px 3px 3px $act-card-shadow;
+              border-radius: 8px;
+              cursor: pointer;
+
+          }
+
+          .card-buttons:hover{
+
+              background-color: #5ccafa;
+              color: white;
+              cursor: pointer;
+          }
+
+          .toolImg {
+              padding-left: 3rem;
+          }
+
+

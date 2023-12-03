@@ -1,0 +1,23 @@
+.footer {
+    background: #e1e4e9;
+    width: 100%;
+    font-size: 1vw;
+    min-height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    font-family: Helvetica;
+}
+
+.footerText {
+    margin: auto;
+    color: #9fa0a1;
+}
+
+.companyName {
+    color: #3a8afa;
+    
+}
+
